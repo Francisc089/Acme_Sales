@@ -64,4 +64,4 @@ describe('Customer Sales Map function', function(){
     function() {
         expect(generateCustomerSalesMap(sales, [{id: 1, name: undefined}])).to.eql({})
 });
-  });
+  })

@@ -19,7 +19,7 @@ const generateCustomerSalesMap = (salesData, customerData) => {
         },0)
     });
     return customerSalesData;
-}
+};
 
 
 module.exports = generateCustomerSalesMap;
